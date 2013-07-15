@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Telandria</title>
+		<link rel="stylesheet" type="text/css" href="design/style.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="http://localhost:4003/socket.io/socket.io.js"></script>
+		<script language="JavaScript" type="text/javascript" src="website-helper.js"></script>
+	</head>
+	<body>
+		<div id="info"></div>
+		<br>		
+		<b>Login</b>
+		<form>
+		<div>Username: <input type="text" id="login_name" value=""></div>
+		<div>Password: <input type="password" id="login_password" value=""></div>
+		<div><input type="button" value="Login" id="login"></div>
+		</form>
+	
+	<br/>
+	
+		<b>Create new user</b>
+		<form>
+		<div>Username: <input type="text" id="register_name" value=""></div>
+		<div>E-Mail: <input type="text" id="register_mail" value=""></div>
+		<div>Password: <input type="password" id="register_password" value=""></div>
+		<div><input type="button" value="Register" id="register"></div>
+		</form>
+	</body>
+</html>

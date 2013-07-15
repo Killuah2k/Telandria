@@ -1,0 +1,16 @@
+#gameObject {
+	position:relative;
+}
+
+#canvasBack {
+	background:gray;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+#canvasMain {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
